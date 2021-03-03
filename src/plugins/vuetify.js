@@ -1,0 +1,51 @@
+import Vue from 'vue';
+import Vuetify from 'vuetify/lib/framework';
+import he from 'vuetify/lib/locale/he';
+
+Vue.use(Vuetify);
+
+export default new Vuetify({
+  rtl: true,
+  theme: {
+    options: {
+      customProperties: true,
+    },
+    themes: {
+      light: {
+        primary: '#ee44aa',
+        secondary: '#424242',
+        accent: '#82B1FF',
+        error: '#FF5252',
+        info: import Vue from 'vue';
+import Vuetify from 'vuetify/lib/framework';
+import he from 'vuetify/lib/locale/he';
+
+Vue.use(Vuetify);
+
+export default new Vuetify({
+  rtl: true,
+  theme: {
+    options: {
+      customProperties: true,
+    },
+    themes: {
+      light: {
+        primary: '#ee44aa',
+        secondary: '#424242',
+        accent: '#82B1FF',
+        error: '#FF5252',
+        info: '#2196F3',
+        success: '#4CAF50',
+        warning: '#FFC107',
+        EzerRed: '#ed272d'
+      },
+    },
+  },
+  lang: {
+    locales: { he },
+    current: 'he',
+  },
+  icons: {
+    iconfont: 'fa',
+  },
+});
